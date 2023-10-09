@@ -1,0 +1,466 @@
+
+/*INDEX.HTML*/
+
+/* ESTILS GENERALS*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* HEADER*/
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 25px;
+}
+ 
+h1 a{
+    text-decoration: none;
+    color: rgb(240,93,80);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 a:hover{
+    color: rgba(240,93,80,0.5);
+}
+
+#menu ul li a{
+    color: rgb(0,0,25);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;   
+    font-size: 15px;
+}
+
+#menu ul{
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+#menu ul li{
+    padding-top: 7px;
+}
+
+#menu ul li a:hover{
+    color: rgba(0,0,25,0.5);
+}
+
+#italic_bold{
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* SECTION 1*/
+
+.section1 h2{
+    text-align: center;
+    font-size: 31px;
+    padding-top: 60px;
+}
+
+
+.section1 p:nth-of-type(1){
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 450px;
+    margin-right: 450px;
+    line-height: 27px;
+}
+
+.section1 p:nth-of-type(2){
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.section1 p:nth-of-type(3){
+    font-size: 12px;
+    text-align: center;
+    padding-top: 17px
+}
+
+.section1 figure img{
+    padding-top: 50px;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+.section1 figcaption{
+    padding-top: 25px;
+    text-align: center;
+    font-size: 11px;
+}
+
+.section1 figcaption #no-cursiva a{
+    color:  rgb(240,93,80);   
+    text-decoration: none;
+}
+
+/*SECTION 2*/
+
+.section2 > p:nth-of-type(1){
+    padding-top: 45px;
+    margin-left: 230px;
+    margin-right: 570px;
+    font-weight: bold;
+    line-height: 29px;
+    font-size: 19px;
+}
+
+.section2 .article1 h3{
+    padding-top: 40px;
+    margin-left: 230px;
+    margin-right: 570px;
+    font-weight: bold;
+    line-height: 27px;
+    font-size: 23px;
+}
+
+.section2 .article1 p{
+    padding-top: 45px;
+    width: 71%;
+    margin: 0 auto;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.section2 .article1 figure video{
+    padding-top: 50px;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+.section2 .article1 figcaption{
+    padding-top: 25px;
+    text-align: center;
+    font-size: 11px;
+}
+
+#cursiva{
+    font-style: italic;
+}
+
+.section2 .article2 h3{
+    padding-top: 40px;
+    margin-left: 230px;
+    margin-right: 570px;
+    font-weight: bold;
+    line-height: 27px;
+    font-size: 23px;
+}
+
+.section2 .article2 p{
+    padding-top: 40px;
+    max-width: 71%;
+    margin: 0 auto;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.section2 .article3 h3{
+    padding-top: 40px;
+    margin-left: 230px;
+    margin-right: 570px;
+    font-weight: bold;
+    line-height: 27px;
+    font-size: 23px;
+}
+
+.section2 .article3 p{
+    padding-top: 40px;
+    max-width: 71%;
+    margin: 0 auto;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.section2 .article4 h3{
+    padding-top: 40px;
+    margin-left: 230px;
+    margin-right: 570px;
+    font-weight: bold;
+    line-height: 27px;
+    font-size: 23px;
+}
+
+.section2 .article4 p:nth-of-type(1){
+    padding-top: 40px;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 25px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section2 .article4 p:nth-of-type(2){
+    font-style: italic;
+    font-size: 13px;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.section2 .article4 p:nth-of-type(3){
+    padding-top: 40px;
+    width: 71%;
+    margin: 0 auto;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.section2 .article4 p:nth-of-type(4){
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 40px;
+    width: 71%;
+    margin: 0 auto;
+    line-height: 25px;
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 80px;
+}
+
+#no-cursiva a{
+    text-decoration: none;
+    color: rgb(240,93,80);
+}
+
+#no-cursiva a:hover{
+    text-decoration: none;
+    color:  rgba(240,93,80,0.5);
+}
+
+#cursiva a{
+    text-decoration: none;
+    color:  rgb(240,93,80);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#cursiva a:hover{
+    text-decoration: none;
+    color:  rgba(240,93,80,0.5);
+}
+
+/*FOOTER*/
+
+.footer1{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0,0,25);
+}
+
+.footer1 p{
+    color: rgb(255,255,255);
+    text-align: center;
+    padding-top: 35px;
+}
+
+/*LLISTAT-NOBEL-LITERATURA*/
+
+.section3 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 31px;
+    padding-top: 60px;
+}
+
+.section3 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: normal;
+    padding-top: 20px;
+}
+
+.section3 h6{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: normal;
+    padding-top: 20px;
+}
+
+/*SECTION 4*/
+
+
+.section4{
+    padding-top: 40px;
+    width: 30%;
+    margin: auto;
+}
+
+
+.section4 ul li{
+    list-style-type: none;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.section4 > ul >li{
+    color: rgba(0,0,25,0.5);
+    font-weight: bold;
+}
+
+.section4 ul ul li{
+    list-style-type: square;
+    margin-left: 50px;
+    
+}
+
+.section4 p{
+    margin-top: 50px;
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.section4  a{
+    color: rgb(240,93,80);
+    text-decoration: none;
+}
+
+.section4 a:hover{
+    color: rgba(240,93,80,0.5);
+}
+
+.section4 ul ul li #any{
+    color: rgba(0,0,25,0.5);
+    font-weight: 900;
+}
+
+/*FOOTER*/
+
+.footer2{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(0,0,25);
+}
+
+.footer2 p:nth-of-type(1){
+    color: rgb(255,255,255);
+    text-align: center;
+    font-size: 11px;
+    padding-top: 40px;
+}
+
+.footer2 p:nth-of-type(2){
+    color: rgb(255,255,255);
+    text-align: center;
+    font-size: 11px;
+    padding-top: 15px;
+}
+
+.footer2 p a{
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+
+
+/*03-MOTIVACIÓ-PREMIS*/
+
+.section5 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 31px;
+    padding-top: 60px;
+}
+
+.section5 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: normal;
+    padding-top: 20px;
+}
+
+.section5 h6{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: normal;
+    padding-top: 20px;
+}
+
+.section6{
+    max-width: 60%;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.section6 h3{
+    padding-bottom: 15px;
+}
+
+.section6 p{
+    padding-bottom: 15px;
+    margin-left: 30px;
+    font-size: 12px;
+}
+
+.section6 p .any{
+    font-size: 14px;
+    font-weight: ;
+}
+
+.section6 p #font{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.section6 a{
+    text-decoration: none;
+    color: rgb(240,93,80);
+    font-size: 15px;
+}
+
+.section6 a:hover{
+    color: rgba(240,93,80,0.5);
+}
+
+.section7 p{
+    margin-top: 50px;
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.section7 a{
+    color: rgb(240,93,80);
+    text-decoration: none;
+}
+
+.section7 a:hover{
+    color: rgba(240,93,80,0.5);
+}
+
+/*FOOTER*/
+
+.footer3{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0,0,25);
+}
+
+.footer3 p{
+    color: rgb(255,255,255);
+    text-align: center;
+    padding-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
